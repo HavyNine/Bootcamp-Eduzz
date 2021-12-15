@@ -1,0 +1,76 @@
+-20% geralmente é utilizado do software em uma empresa
+-Tradicional(Waterfall) demanda muito tempo
+-Ágil: Software construído por partes (incremental) 
+e cada parte executa-se em um ciclo(iterativo).
+
+*Ele é Adaptativo.
+*Projeto é controlado por funcionalidades
+*Cliente pode ver parte do software funcinando
+na parte inicial do Projeto.
+*Mudanças constantes de acordo com feedbacks contínuos.
+
+-No tradicional demora meses para descobrir que você estava errado.
+Com o SCRUM, no máximo 30 dias.
+
+*SCRUM(é um dos frameworks de gerenciamento):
+-Rapidez na mudança e desembaraço;
+-Fazer coisas  complexas de forma simples;
+-Equipe compremetida com os objetivos;
+-Maior valor para o cliente.
+
+Pilares:
+-Conversar mais e escrever menos;
+-Demosntrar o software constantemente aos usuários e
+obter feeedbacks;
+-Requisitos mudam ao longo do tempo;
+-Aprender progressivamente com o uso do software.
+
+Características do time SCRUM:
+-Equipes capazes de se auto-organizare,;
+-As tarefas são do time e todos são responsáveis;
+-Forte comprometimento com os resultados.
+
+Papéis e Responsabilidades:
+-PO:
+	Representante da área de Negócios
+	-Tem a visão do que será desenvolvido, as necessidades
+	a serem atendidas, o público que vai utilizar os serviços
+	e os objetivos a serem alcançados
+	-Product Backlog(Define as funcionalidades do software
+-SM:
+	Garantir o uso correto do SCRUM
+-Time DEV:
+	é o time
+
+
+Cerimônias do SCRUM:
+1 Sprint é o tempo máximo para desenvolver algo
+-Planejamento da Sprint 8hrs
+-Reuniões Diárias
+-Review (último dia da sprint) 
+-Retrospectiva 3hrs
+ 
+
+Analisando Escopo e Prioridade
+-épicos:
+	Incrementro sem muito detalahamento, ajuda a te
+	direcionar dos caminhos que deve seguir
+-Estória
+	Detalhamento dos épicos
+
+
+*ESCREVENDO UMA ESTÓRIA - MODELO*
+-Nome da Estória
+-Descroção da Estória(Eu, como, quero, quando)
+-Regras de negócio(Separar Regras de Front de regras do Back)
+-Tela(link ou imagens das telas a serem desenvolvidas)
+-KPI(Quais objetivos/valor a estória precisa atingir)
+-Tagueamento(Como a estória será "Tagueada" para pode mensurar
+os KPI)
+-Critérios de Aceite(Qual Passo a passo de todos os caminhos 
+felizes possíveis a estória deve cumprir para que ela seja 
+considerada aceita)
+
+
+-Daily 15 min
+-Retro focado na sprint como um todo (feita no final de cada sprint)
