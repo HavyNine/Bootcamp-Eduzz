@@ -74,3 +74,5 @@ considerada aceita)
 
 -Daily 15 min
 -Retro focado na sprint como um todo (feita no final de cada sprint)
+
+

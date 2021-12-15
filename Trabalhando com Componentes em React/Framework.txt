@@ -1,0 +1,5 @@
+npx create-react-app "nome-do-app"
+
+Componetizar sempre que der
+
+useState super importante para apps dinâmicos
