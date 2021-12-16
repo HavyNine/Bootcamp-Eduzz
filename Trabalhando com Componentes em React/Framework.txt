@@ -3,3 +3,15 @@ npx create-react-app "nome-do-app"
 Componetizar sempre que der
 
 useState super importante para apps dinâmicos
+
+Stateful: 
+-usa estados
+-possui gerenciamento de estado do componente
+
+Stateless: não usa estados
+
+
+Com hooks, estados são mani´puláveis em function components
+
+
+https://account.tos.world/registry?uuid=05178e31-f175-4f79-94ae-6c45881f247d
