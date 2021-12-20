@@ -13,5 +13,20 @@ Stateless: não usa estados
 
 Com hooks, estados são mani´puláveis em function components
 
+Flux servem para comunicação entre componentes
 
+Redux é uma implementação de Flux:
+-Tem uma única Store
+
+
+Imutabilidade:
+-Uma vez criada, uma coleção não pode ser alterada
+-Novas coleções podem ser criadas a partir de uma coleção anterior 
+e uma mutação como um conjunto
+Novas coleções criadas usando o máximo possível de estrutura original,
+reduzinfo a cópia e aumentando a performance
+*Performace
+*Programação mais simples
+*Debugging mais simples
+-pré requisito no Redux
 https://account.tos.world/registry?uuid=05178e31-f175-4f79-94ae-6c45881f247d

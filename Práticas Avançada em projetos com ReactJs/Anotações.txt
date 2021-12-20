@@ -1,0 +1,25 @@
+Hooks:
+
+useEffect para alteração de estado do componente
+
+useEffect(() -> {
+	Código
+,[]}
+
+
+Utilizar o memo para evitar re-renders desnecessários
+
+const areEqual = (prevPropsm, nextProps) => {
+	return prevProps.loading === nextProps.loading
+}
+
+
+export default memo(Component, areEqual)
+
+
+useState() -> atualizar variáveis
+
+Não use Hooks dentro de funções JS comuns, só em React
+
+-----------------------------
+CONTEST API:
