@@ -23,3 +23,32 @@ Não use Hooks dentro de funções JS comuns, só em React
 
 -----------------------------
 CONTEST API:
+createContext(exewmplo):
+
+import { createContext } from "react"; 
+
+
+const themes = {
+    primary: {
+        background: '#f7f7f7',
+        color: '#000'
+    }
+}
+
+export default themes;
+
+
+const ThemeContext = createContext(themes.primary);
+
+export default ThemeContext;
+
+//tem dentro dele Provider e posso passar um valor(value = themes.primary)
+
+<ThemeContext.Provider value={themes.primary}>
+      <Card sx={{ 
+        maxWidth: 1000,
+        marginLeft: '180px' }}>
+        <Options/>
+      </Card>
+      
+</ThemeContext.Provider>
