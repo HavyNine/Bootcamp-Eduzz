@@ -52,3 +52,7 @@ export default ThemeContext;
       </Card>
       
 </ThemeContext.Provider>
+
+
+
+Dumb componentes não tem regras de negócio

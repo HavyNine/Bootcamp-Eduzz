@@ -1,0 +1,3 @@
+Boa prática usar o prop-typtes
+useRef : manter o estado mesmo depois de um re-render
+Procurar sempre fazer tdd 

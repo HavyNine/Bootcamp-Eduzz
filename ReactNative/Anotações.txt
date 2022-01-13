@@ -1,0 +1,7 @@
+npx react-native init
+
+Run instructions for Android:
+    • Have an Android emulator running (quickest way to 
+get started), or a device connected.
+    • cd "D:\WorkSpace\Projeto\ReactNative\projeto1" && 
+npx react-native run-android  
