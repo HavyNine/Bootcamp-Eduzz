@@ -29,3 +29,30 @@ npm install --save-dev @types/express
 npm install --save ts-node-dev
  Script para não ter que ficar dando build e node start:
  "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify src/index.ts"
+
+lembre sempre de configurar sua aplicação para entender json:
+app.use(express.json()); => é um midware para interpretar o json
+
+ Podemos separar nossa aplicação com o Router, permitindo configurações de rotas
+
+tipos parametros para req nos protocolos http:
+query params(string) ou parametros direto na url
+
+nas rotas do express, variáveis dinâmicas na url saõ declaradas da seguinte forma:
+
+rota.get('rota/:variavelDinamica');
+
+dando auto complete no req.params, exemplo de código, após o Request:
+
+    usersRouter.get('/users/:uuid', (req: Request<{uuid: string}>, res: Response, next: NextFunction) =>{
+        const uuid = req.params.uuid;
+        res.status(200).send({uuid});
+    });
+
+status code:
+200 - ok
+etc. 
+
+ou npm install --save http-status-codes
+depois import {StatuCode} from 'http-status-codes'
+
