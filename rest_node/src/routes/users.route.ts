@@ -18,4 +18,16 @@ usersRouter.post('/users', (req: Request, res: Response, next: NextFunction) => 
     res.send(newUser).status(StatusCodes.CREATED);
 });
 
+usersRouter.put('/user/:uuid', (req: Request<{uuid: string}>, res: Response, next: NextFunction) => {
+    const userAtt = req.params.uuid;
+    //chamada do servidor para o put
+    res.sendStatus(StatusCodes.OK);
+});
+
+usersRouter.delete('/user/:uuid', (req: Request<{uuid: string}>, res: Response, next: NextFunction) => {
+    const user = req.params.uuid;
+    console.log("Usuário deletado do BD");
+    res.sendStatus(StatusCodes.OK);
+});
+
 export default usersRouter;
