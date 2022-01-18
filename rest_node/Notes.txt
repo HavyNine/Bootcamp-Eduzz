@@ -59,3 +59,8 @@ etc.
 ou npm install --save http-status-codes
 depois import {StatuCode} from 'http-status-codes'
 
+
+
+----------------------------------------------------------------
+Connection com o db: Dê sempre preferêcias a Pool de conecções;
+
