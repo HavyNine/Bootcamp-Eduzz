@@ -64,3 +64,15 @@ depois import {StatuCode} from 'http-status-codes'
 ----------------------------------------------------------------
 Connection com o db: Dê sempre preferêcias a Pool de conecções;
 
+A conecção com o db irá variar como iremos fazer as requisições, mas a principio não muda muito
+o framework. Cada db tem suas particularidades, mas todos tem coisas em comum, mudando a maneira
+fazê-las.
+
+----------------------------------------------------------------
+TRATAMENTO DE ERROS
+
+quando der algum erro mande um new DatabaseError(error);
+
+o error hadler é a melhor forma de se fazer um tratamento de erro
+usamos isso passando dentro do next() em um catch;
+
