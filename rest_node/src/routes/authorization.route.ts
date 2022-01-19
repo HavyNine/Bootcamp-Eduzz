@@ -5,8 +5,14 @@ import JWT from 'jsonwebtoken';
 
 import { StatusCodes } from "http-status-codes";
 import basicAuthenticationMiddleware from "../midware/ads";
+import beareAuthentication from "../midware/bearer.authentication";
 
 const authorizationRoute = Router();
+
+authorizationRoute.post('/token/validate', beareAuthentication, async (req: Request, res: Response, next: NextFunction) =>{
+    res.status(StatusCodes.OK);
+});
+
 
 authorizationRoute.post('/token', basicAuthenticationMiddleware, async (req: Request, res: Response, next: NextFunction) => {
     
@@ -31,4 +37,6 @@ authorizationRoute.post('/token', basicAuthenticationMiddleware, async (req: Req
         next(error);
     }
 });
+
+
 export default authorizationRoute;
