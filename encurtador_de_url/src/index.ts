@@ -13,3 +13,4 @@ app.post('/shorten', URLController.shorten);
 app.get('/:hash', URLController.redirect);
 
 app.listen(3000, () => console.log('App rodando na 3000'));
+
